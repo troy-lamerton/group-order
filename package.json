@@ -4,6 +4,7 @@
   "description": "Click on food items from a few resturants to build up a group order list. Built for use at Enspiral Dev Academy.",
   "main": "index.js",
   "scripts": {
+    "scrape": "node ./lib/scraper",
     "start": "budo . -d --serve bundle.js --live",
     "build": "browserify . -o bundle.js -g uglifyify",
     "build:watch": "watchify . -o bundle.js -g uglifyify",
