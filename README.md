@@ -1,34 +1,12 @@
 
 # group-order
 
-Click on food items from a few resturants to build up a group order list. Built for use at Enspiral Dev Academy.
+Click on food items from a few resturants to build up a group order list. Being built for use at Enspiral Dev Academy.
 
-## how
+## Scraper
 
-### install
+The scraper is run manually by the developer when menus need to be updated.
 
-```
-git clone https://github.com/troy-lamerton/group-order
-cd 
-npm install
-```
+## App
 
-## develop
-
-```
-npm start
-```
-
-browse to <http://localhost:9966/>.
-
-## test
-
-```
-npm test
-```
-
-## deploy
-
-```
-npm run deploy
-```
+The app displays menus stored in the scraped_menus folder.
