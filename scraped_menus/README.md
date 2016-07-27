@@ -10,7 +10,7 @@ For one resturant:
 ### Example:
     {
       "name": "Delicious noodles",
-      "price": 4.50,
+      "price": 11.50,
       "description": "Lots of boiled noodles with delicious sauce",
       "imageUrl": "http://www.placeimg.com/320/480"
     }
