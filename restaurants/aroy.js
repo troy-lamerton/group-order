@@ -31,7 +31,16 @@ function scrapeAroy (html) {
       price = parseInt(price)
 
       // extract description
+      const description = ''
 
+      // extract imageUrl
+      const imageUrl = $('.menulist a img', categoryItem).attr('src')
+
+      // add extracted data to menuItem
+      menuItem.name = name
+      menuItem.price = price
+      menuItem.description = description
+      menuItem.imageUrl = imageUrl
 
       // log for debugging
       if(Math.random() < 0.4) console.log('item:', menuItem)
