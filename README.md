@@ -5,9 +5,9 @@ Click on food items from a few resturants to build up a group order list. Being 
 
 ## Scraper
 
-The scraper is run manually by the developer when menus need to be updated.
-The scraper is written in Javascript that Node can understand with transformations.
+The scraper scripts are run manually when a restaurant menu need to be updated.
+The scraper and restaurant scripts are written in Javascript that Node can understand without babel.
 
 ## App
 
-The app displays menus stored in the scraped_menus folder.
+The app displays all menus stored in the scraped_menus folder.
